@@ -8,14 +8,14 @@
     "text": "Fabien Chatelier - ARB NA"
   },
   "text": {
-    "more": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.\nLes données proviennent de la base de données ENCORE. Le traitement des données à été effectué sur RSTUDIO. Le réseau a été réalisé sur GEPHI. La spacialisation est ForceAtlas2.",
-    "intro": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.",
-    "title": "Réseau de dépendance et de pression à la biodiversité pour le secteur du bois"
+    "more": "",
+    "intro": "",
+    "title": "Co-occurrences of keywords in the scientific literature on Nature-based Solutions (NbS)"
   },
   "legend": {
-    "edgeLabel": "Place dans la chaîne de valeur, dépendances et pressions",
-    "colorLabel": "Voir_légende",
-    "nodeLabel": "Activité, dépendances et pressions "
+    "edgeLabel": "Co-occurrences of keywords in the scientific literature on Nature-based Solutions (NbS)",
+    "colorLabel": "See Table 2 in chatelier et al (2026)",
+    "nodeLabel": "Keywords in the scientific literature on Nature-based Solutions"
   },
   "features": {
     "search": true,
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 3,
+      "maxNodeSize": 15
     },
     "mouseProperties": {
       "maxRatio": 20,
