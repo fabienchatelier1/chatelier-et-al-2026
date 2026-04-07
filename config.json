@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Fabien Chatelier - ARB NA"
+  },
+  "text": {
+    "more": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.\nLes données proviennent de la base de données ENCORE. Le traitement des données à été effectué sur RSTUDIO. Le réseau a été réalisé sur GEPHI. La spacialisation est ForceAtlas2.",
+    "intro": "Ce graphe représente la chaîne de valeurs de 6 secteurs économiques (forêt-bois; BTP; énergie; chimie; agroalimentaire; tourisme), ainsi que leurs dépendances à la biodiversité, et les pressions que ces secteurs exercent sur la biodiversité.",
+    "title": "Réseau de dépendance et de pression à la biodiversité pour le secteur du bois"
+  },
+  "legend": {
+    "edgeLabel": "Place dans la chaîne de valeur, dépendances et pressions",
+    "colorLabel": "Voir_légende",
+    "nodeLabel": "Activité, dépendances et pressions "
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "level",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "level"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
