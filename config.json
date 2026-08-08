@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Fabien Chatelier - ARB NA"
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": "Co-occurrences of keywords in the scientific literature on Nature-based Solutions (NbS)"
+  },
+  "legend": {
+    "edgeLabel": "Co-occurrences of keywords in the scientific literature on Nature-based Solutions (NbS)",
+    "colorLabel": "See Table 2 in chatelier et al (2026)",
+    "nodeLabel": "Keywords in the scientific literature on Nature-based Solutions"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "level",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "level"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 1.5,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 3,
+      "maxNodeSize": 15
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
